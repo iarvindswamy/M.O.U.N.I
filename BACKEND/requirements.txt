@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+requests
+beautifulsoup4
+google-generativeai
+faiss-cpu
+numpy
+pymupdf
+python-dotenv
+playwright

@@ -1,0 +1,26 @@
+# Ignore Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python Virtual Environment (Too heavy)
+backend/venv/
+venv/
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+
+# Ignore Secret Keys (NEVER UPLOAD THIS)
+.env
+
+# Ignore Node Modules (Too heavy, Vercel installs these automatically)
+frontend/node_modules/
+node_modules/
+
+# Ignore the raw data folders (Optional, but good practice)
+# backend/data/html/
+# backend/data/pdfs/
+
+# DO NOT IGNORE THESE (We need them for deployment):
+# backend/rag/vector_store.faiss
+# backend/rag/index.pkl
