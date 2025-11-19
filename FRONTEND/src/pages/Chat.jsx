@@ -77,7 +77,7 @@ export default function Chat() {
 
       // Call Python Backend
       // Ensure your backend is running at http://127.0.0.1:8000
-      const res = await axios.post('http://127.0.0.1:8000/api/chat', {
+      const res = await axios.post('https://m-o-u-n-i.onrender.com/api/chat', {
         message: userMsgText,
         mode: mode
       });
